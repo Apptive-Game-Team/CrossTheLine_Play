@@ -13,20 +13,25 @@
     <type fullname="DCR.Ui.DraggableRect" preserve="all" />
     <type fullname="DCR.Ui.UIActiveController" preserve="all" />
     <type fullname="DCR.Ui.UISort" preserve="all" />
+    <type fullname="EndingManager" preserve="all" />
     <type fullname="FadeChannelSO" preserve="all" />
     <type fullname="FadeController" preserve="all" />
     <type fullname="GameplaySO" preserve="all" />
-    <type fullname="InGameSO" preserve="all" />
+    <type fullname="GoodsManager" preserve="all" />
     <type fullname="InputReader" preserve="all" />
     <type fullname="IntEventChannelSO" preserve="all" />
     <type fullname="LoadEventChannelSO" preserve="all" />
     <type fullname="LoadingInterfaceController" preserve="all" />
+    <type fullname="MainContentDataSO" preserve="all" />
     <type fullname="MenuSO" preserve="all" />
     <type fullname="MonitorManager" preserve="all" />
+    <type fullname="MonitorSO" preserve="all" />
+    <type fullname="PrologueSO" preserve="all" />
     <type fullname="RequestController" preserve="all" />
     <type fullname="RequestManager" preserve="all" />
     <type fullname="RoomManager" preserve="all" />
     <type fullname="RoomSO" preserve="all" />
+    <type fullname="SaveLoadSystem" preserve="all" />
     <type fullname="SceneLoader" preserve="all" />
     <type fullname="StartGame" preserve="all" />
     <type fullname="StatusSO" preserve="all" />
@@ -36,12 +41,15 @@
     <type fullname="UIMenuManager" preserve="all" />
     <type fullname="UIPause" preserve="all" />
     <type fullname="UIPopup" preserve="all" />
+    <type fullname="UIPrologueController" preserve="all" />
+    <type fullname="UISetting" preserve="all" />
     <type fullname="VoidEventChannelSO" preserve="all" />
     <type fullname="ContentJournalSO/DayRecord" preserve="nothing" serialized="true" />
     <type fullname="DCR.Ui.ClickEvent" preserve="nothing" serialized="true" />
     <type fullname="DCR.Ui.DragEvent" preserve="nothing" serialized="true" />
     <type fullname="Rarity" preserve="nothing" serialized="true" />
     <type fullname="Status" preserve="nothing" serialized="true" />
+    <type fullname="Save" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
@@ -54,8 +62,6 @@
     <type fullname="UnityEngine.InputSystem.InputAction" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.InputSystem.InputActionMap" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.InputSystem.InputBinding" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.InputSystem.InputControlScheme" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.InputSystem.InputControlScheme/DeviceRequirement" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="all" />
@@ -133,9 +139,9 @@
     <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Scrollbar/ScrollEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Canvas" preserve="all" />
